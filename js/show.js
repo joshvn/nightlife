@@ -37,8 +37,9 @@ function makeDetailsHTML (data)
   var html = '<h2>' + data.name  + '</h2>' 
   + '<img src="' + data.image + '">' 
   + '<p>' + data.about + '</p>'
-  + '<a class="contact button">Contact ' + data.name + '</a>'
-
+  //+ '<a class="contact button">Contact ' + data.name + '</a>'
+  + '<a href="' + data.website +'" target="_blank">Website</a>'
+  
   return html;        
 }
 

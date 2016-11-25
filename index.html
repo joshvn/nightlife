@@ -9,7 +9,7 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-
+        <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.css' rel='stylesheet' />
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -24,7 +24,7 @@
 <!--        this is the home section-->
         <section id="home">
             <img id="logo" src="img/Nightlife.png">
-            <h1>Find Your Perfect Nightlife</h1>
+            <h1>Find your favourite London Club.</h1>
             <select>
                 <option value="house">House</option>
                 <option value="drumandbass">D&B</option>
@@ -37,6 +37,7 @@
                  </section>
         <section id="results">
             <a class="back button">Back</a>
+            <a class="toggle button" id="toggle">Map</a>
             <h1>Your Ideal Nightlife..</h1>
             <ol>
                 <li>
@@ -69,6 +70,7 @@
                     <p>About this person</p>
                 </li>
             </ol>
+<div id="map"></div>
         </section>
         <section id="details">
             <a class="back button">Back</a>
@@ -83,19 +85,15 @@
 <script
         src="https://www.gstatic.com/firebasejs/3.4.1/firebase.js">
         </script>
+            <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.js'></script>
         <script src="js/firebase.js"></script>
         <script src="js/filter.js"></script>
         <script src="js/show.js"></script>
+        
+        <script src="js/mapbox.js"></script>
         <script src="js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='https://www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
+            
+            
+        
     </body>
 </html>

@@ -3,8 +3,10 @@ var homeGoButton = $('#home button')
 var homeSection = $('#home')
 var resultsSection = $('#results')
 var resultsBackButton = $('#results .back')
+var resultsToggleButton = $('#results .toggle')
 var homeDropdown = $('#home select')
 var resultsOL = $('#results ol')
+var resultsMap = $('#map')
 var detailsSection = $('#details')
 var detailsBackButton = $('#details .back')
 var detailsInfo = $('#details #info')
@@ -59,7 +61,34 @@ detailsBackButton.click( function() {
     resultsSection.show()
 } )
 
-                
-                
-
-                  
+resultsToggleButton.click( function() {
+    // find out which element is currently visible
+    // is the list visible?
+    var listDsiplay = resultsOL.css('display')
+    if (listDsiplay == 'block') isListVisible = true
+    else isListVisible = false
+    
+    if (isListVisible)
+        {
+            // we want to show the map and hide `the list
+            resultsMap.show()
+            map.resize() // get the map to take all the available space.
+            resultsOL.hide()
+            document.getElementById("toggle").innerHTML = "List"
+            
+        }
+    else
+        {
+            // we want to show the list
+            
+            resultsOL.show()
+            resultsMap.hide()
+            document.getElementById("toggle").innerHTML = "Map"
+        }
+    
+    // if the list is visible, we want to show the map
+    
+    // if the list is hidden, we want to show the list
+    
+}
+)
