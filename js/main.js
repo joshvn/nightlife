@@ -10,6 +10,8 @@ var resultsMap = $('#map')
 var detailsSection = $('#details')
 var detailsBackButton = $('#details .back')
 var detailsInfo = $('#details #info')
+var skillsDropdown = $('#skills')
+var petsDropdown = $('#pets')
 
 // define results list outside of any function
 var resultsList = []
