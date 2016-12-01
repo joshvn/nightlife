@@ -10,7 +10,7 @@ var resultsMap = $('#map')
 var detailsSection = $('#details')
 var detailsBackButton = $('#details .back')
 var detailsInfo = $('#details #info')
-
+var resultsList = []
 
 // tell the button to do something when we click it
 homeGoButton.click(function(){
@@ -32,6 +32,7 @@ homeGoButton.click( function(){
     
     var resultsList = filterAndSortList(peopleList, chosenOption)
     showList(resultsList, resultsOL)
+    addMarkers(resultsList)
                 
     $('#results li').click( function() {
         // grab the id from the clicked item
