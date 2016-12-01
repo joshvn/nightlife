@@ -9,7 +9,7 @@ var map = new mapboxgl.Map(
   // style URL
   style: 'mapbox://styles/joshvn/ciw6hg5lr00302kmg0fx8p60i', 
   // initial position in [long, lat] format
-    center: [0.005353, 51.501597],
+    center: [-0.1, 51.501597],
   // initial zoom
-  zoom: 10
+  zoom: 8.5
 })
