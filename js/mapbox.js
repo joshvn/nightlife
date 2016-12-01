@@ -11,5 +11,5 @@ var map = new mapboxgl.Map(
   // initial position in [long, lat] format
     center: [-0.1, 51.501597],
   // initial zoom
-  zoom: 8.5
+  zoom: 8.51
 })
