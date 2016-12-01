@@ -46,7 +46,7 @@ button {
 #map {
     background-color: yellow
     width: 100%;
-    height: 30rem; /* experiment with different heights */
+    height: 32rem; /* experiment with different heights */
     display: none; 
 }
 
