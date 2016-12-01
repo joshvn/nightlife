@@ -2,7 +2,9 @@ function makeListItemHTML (data, index)
 {
   /*
     This function creates some nice HTML around data for the #home section
+
     Return something like this:
+
     <li>
         <img src="https://ma.tteo.me/assets/surprise.png">
         <h2>Matteo</h2>
@@ -22,7 +24,9 @@ function makeDetailsHTML (data)
 {
   /*
     This function creates some nice HTML around data for the #details section
+
     Return something like this:
+
     <h2>Matteo</h2>
     <img src="https://ma.tteo.me/assets/surprise.png">
     <p>I teach people aged 6 to 60+ how to be creative with code.
@@ -33,8 +37,9 @@ function makeDetailsHTML (data)
   var html = '<h2>' + data.name  + '</h2>' 
   + '<img src="' + data.image + '">' 
   + '<p>' + data.about + '</p>'
-  + '<a class="contact button">Contact ' + data.name + '</a>'
-
+  //+ '<a class="contact button">Contact ' + data.name + '</a>'
+  + '<a href="' + data.website +'" target="_blank">Website</a>'
+  
   return html;        
 }
 
@@ -42,20 +47,15 @@ function makeDetailsHTML (data)
 function showList (dataList, interfaceList) 
 {
     // update the ul content with the result of makeListHTML(list)
-    // html is a jQuery function
+    // .html() is a jQuery function
     interfaceList.html( makeListHTML(dataList) ); 
 }
 
-/*function showDetails (data) 
+function showDetails (data, interfaceElement) 
 {
-  var $info = $('.info'); // tell jQuery to select the <div class="info"></div>
-  if ($info.length == 0) console.error('You are missing a <div class="info"></div> in your index.html, inside <section id="details"> ... </section>');
-  var detailsHTML = makeDetailsHTML(data);
-  $info.html(detailsHTML);
-  
-  $('#home').hide();
-  $('#details').show();
-}*/
+  var detailsHTML = makeDetailsHTML(data)
+  interfaceElement.html(detailsHTML)
+}
 
 function makeListHTML (list) 
 {
