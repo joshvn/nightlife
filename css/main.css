@@ -1,5 +1,6 @@
 html {
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    background: rgb(0, 253, 183);
     background-image: url("http://www.destinationclubbing.com/assets/userfiles/immortels.jpg");
     background-size: cover;
     background-attachment: fixed;
@@ -43,6 +44,45 @@ button {
     margin-top: 15px;
 }
 
+.button
+{
+    cursor: pointer;
+}
+
+
+#results ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#results li {
+    border: 1px solid #ccc;
+    margin-bottom: -1px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+#results li:hover {
+    background: #ccc;
+}
+
+#results img {
+    max-width: 9rem;
+    position: absolute;
+}
+
+#results h2 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-left: calc(9rem + 10px);
+    line-height: inherit;
+    font-size: 1.5rem;
+    padding-bottom: calc(6rem - 1.5rem - 10px);
+}
+
 #map {
     background-color: yellow
     width: 100%;
@@ -67,3 +107,13 @@ button {
   background-color: rgba(255, 255, 0, 0.6);
   transform: translate(10px, 20px, 0);
 }
+
+ol {
+    list-style-type: none;
+    padding: 0;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: thin;
+    align: center;
+}
+
