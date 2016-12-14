@@ -51,7 +51,7 @@ The App can found be found here:
 ###Thimble
 The Thimble project can be found here:
 
-![Thimble](http://www.i-programmer.info/images/stories/News/2015/Sept/A/thimblelogosq.jpg =85x)
+![Thimble](https://gyazo.com/1042fd65d2aa897138beac08706af849.png)
 
 
 [Thimble](https://thimbleprojects.org/joshvn/127107/)
