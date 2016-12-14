@@ -21,6 +21,7 @@ I feel that this unit has been very beneficial to me. I've learnt new methods an
 ### Formative Presentation
 
 The Formative Presentation for this unit can be found here:
+
 ![Presentation](https://lh3.ggpht.com/9rwhkrvgiLhXVBeKtScn1jlenYk-4k3Wyqt1PsbUr9jhGew0Gt1w9xbwO4oePPd5yOM=w80)
 
 [Formative Presentation](https://docs.google.com/presentation/d/1XQ6HaA761HCzdc6vqGLIC6VFaLhY1lXQeiWcjO9EdN4/edit?usp=sharing)
@@ -35,6 +36,7 @@ The Presentation Handouts can be found here:
 ### Summative Presentation
 
 The Summative Presentation for this unit can be found here:
+
 ![Presentation](https://lh3.ggpht.com/9rwhkrvgiLhXVBeKtScn1jlenYk-4k3Wyqt1PsbUr9jhGew0Gt1w9xbwO4oePPd5yOM=w80)
 
 [Summative Presentation](https://docs.google.com/presentation/d/1tPw1tLlG1nePenXgtS7MoqQlRijt1FHYX9KHUDfnIuw/edit?usp=sharing)
